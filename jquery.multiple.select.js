@@ -459,6 +459,7 @@
         },
 
         refresh: function () {
+            this.$drop.empty();
             this.init();
         },
 
